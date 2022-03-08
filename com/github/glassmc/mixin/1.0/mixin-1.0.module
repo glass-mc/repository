@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.glassmc",
+    "module": "mixin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mixin-1.0.jar",
+          "url": "mixin-1.0.jar",
+          "size": 14274,
+          "sha512": "543f8c3168c157fba1dab42e429b0c94c80599ce93b6c9595d55fd8abb858eaab8eea59da99b6604acc1fcb95801f43f253e4108b1e32eaf26a453e5b892e6cf",
+          "sha256": "f9b57021d4bd057f6c75401a61e6a48d44882515c5340f39ff358859376d046b",
+          "sha1": "dcbefc808f1708b503a45a5e0aa5482e120aeb3d",
+          "md5": "1790903e45f42fcde477fee5f3e1f58e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.glassmc",
+          "module": "loader",
+          "version": {
+            "requires": "v0.8.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "mixin",
+          "version": {
+            "requires": "0.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mixin-1.0.jar",
+          "url": "mixin-1.0.jar",
+          "size": 14274,
+          "sha512": "543f8c3168c157fba1dab42e429b0c94c80599ce93b6c9595d55fd8abb858eaab8eea59da99b6604acc1fcb95801f43f253e4108b1e32eaf26a453e5b892e6cf",
+          "sha256": "f9b57021d4bd057f6c75401a61e6a48d44882515c5340f39ff358859376d046b",
+          "sha1": "dcbefc808f1708b503a45a5e0aa5482e120aeb3d",
+          "md5": "1790903e45f42fcde477fee5f3e1f58e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mixin-1.0-all.jar",
+          "url": "mixin-1.0-all.jar",
+          "size": 1639964,
+          "sha512": "930e550925f40afc417f5aa6437843ebf0c614680cafb7858c8f8b0327ba58f01ea32576cf9f0b766259e50d65510395c294ec13b7a5f49c0c0ca54e1f00a582",
+          "sha256": "9a38a91ec5ec31f2ca58a6f390a17abf1f83e0a84f71ef7056b5926f782cc381",
+          "sha1": "06926dae6e7db6d1b80565c707a4ca83cea26573",
+          "md5": "e46ca5ac17ddac173d859f7b89b0353c"
+        }
+      ]
+    }
+  ]
+}
