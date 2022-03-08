@@ -23,15 +23,6 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "dependencies": [
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "31.0.1-jre"
-          }
-        }
-      ],
       "files": [
         {
           "name": "mixin-1.0.jar",
@@ -62,13 +53,6 @@
           }
         },
         {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "31.0.1-jre"
-          }
-        },
-        {
           "group": "commons-io",
           "module": "commons-io",
           "version": {
@@ -94,6 +78,13 @@
           "module": "asm-util",
           "version": {
             "requires": "9.2"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
           }
         },
         {
@@ -128,11 +119,11 @@
         {
           "name": "mixin-1.0-all.jar",
           "url": "mixin-1.0-all.jar",
-          "size": 1639964,
-          "sha512": "930e550925f40afc417f5aa6437843ebf0c614680cafb7858c8f8b0327ba58f01ea32576cf9f0b766259e50d65510395c294ec13b7a5f49c0c0ca54e1f00a582",
-          "sha256": "9a38a91ec5ec31f2ca58a6f390a17abf1f83e0a84f71ef7056b5926f782cc381",
-          "sha1": "06926dae6e7db6d1b80565c707a4ca83cea26573",
-          "md5": "e46ca5ac17ddac173d859f7b89b0353c"
+          "size": 4825570,
+          "sha512": "6f4aa3e4139f2493a9a91bcf4548203cd098b9f5be0313250943102f42cc94460153c22c697c766867c8778e2518c58e7dfbb399cd4199a0428b24ca050aae51",
+          "sha256": "483dc217283709535b69766cf568807452c17056b9573f7cda568f84e8d51423",
+          "sha1": "447f6c71d7db76c9f2fbe23dbf3b530eace8ceb5",
+          "md5": "16b2d2af3c76d6cba7d2544fa7726e8a"
         }
       ]
     }
