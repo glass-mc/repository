@@ -27,11 +27,11 @@
         {
           "name": "kiln-0.6.18.jar",
           "url": "kiln-0.6.18.jar",
-          "size": 68948,
-          "sha512": "a773085fc944adbbfad71f19139c91b0e94d083811ae4ad3001794b0d5ad904861a518ce6aaa362434b349be4b2c28215e4cc3d67084b02bc915440a135dbe8e",
-          "sha256": "c73f86008debe157e6c1df9df7f4800ce188cbcffa98e09ab5a4e360f9a1115e",
-          "sha1": "4ac3427c85a0e09f7db00eab2d34eaa7f90fde23",
-          "md5": "fb1d3ec92421a2aee436cd5633beea90"
+          "size": 68634,
+          "sha512": "71ac525d44b7fe645b6c2b6246676ae57e180510c5e20b90921b2347a33bcbd3b54a1dc334e74d602b754e5262995b33f0e614b5731fa663ae22ec88da2a340a",
+          "sha256": "fbb633541c81c592b94601c69ef1ce4a1a17955ed978583a64cea82b9d0b3255",
+          "sha1": "ddb6c5dfafcf0b55f185f952e61179d6ca8bb5a7",
+          "md5": "c8b027861d6e559240173df5ab632502"
         }
       ]
     },
@@ -106,11 +106,11 @@
         {
           "name": "kiln-0.6.18.jar",
           "url": "kiln-0.6.18.jar",
-          "size": 68948,
-          "sha512": "a773085fc944adbbfad71f19139c91b0e94d083811ae4ad3001794b0d5ad904861a518ce6aaa362434b349be4b2c28215e4cc3d67084b02bc915440a135dbe8e",
-          "sha256": "c73f86008debe157e6c1df9df7f4800ce188cbcffa98e09ab5a4e360f9a1115e",
-          "sha1": "4ac3427c85a0e09f7db00eab2d34eaa7f90fde23",
-          "md5": "fb1d3ec92421a2aee436cd5633beea90"
+          "size": 68634,
+          "sha512": "71ac525d44b7fe645b6c2b6246676ae57e180510c5e20b90921b2347a33bcbd3b54a1dc334e74d602b754e5262995b33f0e614b5731fa663ae22ec88da2a340a",
+          "sha256": "fbb633541c81c592b94601c69ef1ce4a1a17955ed978583a64cea82b9d0b3255",
+          "sha1": "ddb6c5dfafcf0b55f185f952e61179d6ca8bb5a7",
+          "md5": "c8b027861d6e559240173df5ab632502"
         }
       ]
     }
