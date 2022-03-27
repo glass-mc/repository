@@ -3,8 +3,8 @@
   <groupId>com.github.glassmc</groupId>
   <artifactId>kiln</artifactId>
   <versioning>
-    <latest>0.7.14</latest>
-    <release>0.7.14</release>
+    <latest>0.8.0</latest>
+    <release>0.8.0</release>
     <versions>
       <version>0.6.18</version>
       <version>0.7.0</version>
@@ -22,7 +22,8 @@
       <version>0.7.12</version>
       <version>0.7.13</version>
       <version>0.7.14</version>
+      <version>0.8.0</version>
     </versions>
-    <lastUpdated>20220324023113</lastUpdated>
+    <lastUpdated>20220327010449</lastUpdated>
   </versioning>
 </metadata>
