@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.glassmc",
+    "module": "loader",
+    "version": "0.9.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "loader-0.9.9.jar",
+          "url": "loader-0.9.9.jar",
+          "size": 36222,
+          "sha512": "63b0bc5a587f8775980431478601c67cc8ed8de31af7eb83c469a26ee34f27c221ab858212bb1b7df9824841a3076f9ff10a11cc9a198de75400d299466baf0b",
+          "sha256": "2e1a91a5316c571ae988f44c19cd2653c86c77cabf886ffad0a47e0548b44c90",
+          "sha1": "28113853b10aa49452b11fda15efeac79ceba268",
+          "md5": "660632801a21b7193087302baedae760"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.github.jezza",
+          "module": "toml",
+          "version": {
+            "requires": "1.2-java-8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-0.9.9.jar",
+          "url": "loader-0.9.9.jar",
+          "size": 36222,
+          "sha512": "63b0bc5a587f8775980431478601c67cc8ed8de31af7eb83c469a26ee34f27c221ab858212bb1b7df9824841a3076f9ff10a11cc9a198de75400d299466baf0b",
+          "sha256": "2e1a91a5316c571ae988f44c19cd2653c86c77cabf886ffad0a47e0548b44c90",
+          "sha1": "28113853b10aa49452b11fda15efeac79ceba268",
+          "md5": "660632801a21b7193087302baedae760"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "loader-0.9.9-all.jar",
+          "url": "loader-0.9.9-all.jar",
+          "size": 562999,
+          "sha512": "5cbdba67c3fa6d3f511484a0d2eed752e0320995d723e71beb6921b3a709e89d6f097190baa9d06cb93b5162e7d8503b1c78cdec10579ba61e54e2dd84628c79",
+          "sha256": "bbcdc40acccddab22e5aa41df1f39305914a1a651f3efa4b914f27c963645392",
+          "sha1": "df9fb56549f6491eddb8f270dc15b1b844930400",
+          "md5": "8eb315577b899a75a11bbd465ecfd263"
+        }
+      ]
+    }
+  ]
+}
