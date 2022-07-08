@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.glassmc",
+    "module": "kiln",
+    "version": "0.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kiln-0.9.2.jar",
+          "url": "kiln-0.9.2.jar",
+          "size": 108457,
+          "sha512": "391ba43b5d1c78e2749f63b3845e21842969a7ae1fda321a75e77ea89f5aa63b1c4db80a79c55a7b22303d048ea0f20dc99f384992aeb271ac6e57685245954d",
+          "sha256": "88c56886c8bde98661cbd4e279c7e8d10dd1468b2379a8a588553b1754a4760b",
+          "sha1": "c2349b2972f26f579a0d145418ad6b92974e9577",
+          "md5": "76f4f04b2bdf71bce4434509131bdb93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20220320"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "com.github.jezza",
+          "module": "toml",
+          "version": {
+            "requires": "1.2-java-8"
+          }
+        },
+        {
+          "group": "com.github.johnrengelman",
+          "module": "shadow",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.github.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "750be4e739"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-csv",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kiln-0.9.2.jar",
+          "url": "kiln-0.9.2.jar",
+          "size": 108457,
+          "sha512": "391ba43b5d1c78e2749f63b3845e21842969a7ae1fda321a75e77ea89f5aa63b1c4db80a79c55a7b22303d048ea0f20dc99f384992aeb271ac6e57685245954d",
+          "sha256": "88c56886c8bde98661cbd4e279c7e8d10dd1468b2379a8a588553b1754a4760b",
+          "sha1": "c2349b2972f26f579a0d145418ad6b92974e9577",
+          "md5": "76f4f04b2bdf71bce4434509131bdb93"
+        }
+      ]
+    }
+  ]
+}
