@@ -27,11 +27,11 @@
         {
           "name": "kiln-0.9.3.jar",
           "url": "kiln-0.9.3.jar",
-          "size": 125486,
-          "sha512": "83d0468c8bc92344e55b0d2504e1d690089294d05d98098e9622d04b4b24513c5439c43a991b71efebb14a9e86047fd2e54e79c3b3b6d7997a24948ec1467531",
-          "sha256": "3832b38352586d985369b8375fc87126260099114bf3de9065c9eea9670914a4",
-          "sha1": "8982a8dc44eae41437bfd3a2bc776c9b273c62e1",
-          "md5": "52c1fa3fd51e575e0b8531715d684bc7"
+          "size": 125401,
+          "sha512": "f6c7b9a41a78ba97ffd4b17168506d517a02fc2bb4b7ce6163bcbbc68ab972fb4c43ec487f8c9c7925e9c49c31b3a1eb98e1a784864122bde9479967cc43e861",
+          "sha256": "06d290c238cbf6fe4ecaa3ff5c5ac90a0f2954767ff9076f8569ba3de8669cb6",
+          "sha1": "ebafe10aea7e4fd70bcd97c80d9a3c146a78b95d",
+          "md5": "43c19f9d2c406f8246f8073972534319"
         }
       ]
     },
@@ -113,11 +113,11 @@
         {
           "name": "kiln-0.9.3.jar",
           "url": "kiln-0.9.3.jar",
-          "size": 125486,
-          "sha512": "83d0468c8bc92344e55b0d2504e1d690089294d05d98098e9622d04b4b24513c5439c43a991b71efebb14a9e86047fd2e54e79c3b3b6d7997a24948ec1467531",
-          "sha256": "3832b38352586d985369b8375fc87126260099114bf3de9065c9eea9670914a4",
-          "sha1": "8982a8dc44eae41437bfd3a2bc776c9b273c62e1",
-          "md5": "52c1fa3fd51e575e0b8531715d684bc7"
+          "size": 125401,
+          "sha512": "f6c7b9a41a78ba97ffd4b17168506d517a02fc2bb4b7ce6163bcbbc68ab972fb4c43ec487f8c9c7925e9c49c31b3a1eb98e1a784864122bde9479967cc43e861",
+          "sha256": "06d290c238cbf6fe4ecaa3ff5c5ac90a0f2954767ff9076f8569ba3de8669cb6",
+          "sha1": "ebafe10aea7e4fd70bcd97c80d9a3c146a78b95d",
+          "md5": "43c19f9d2c406f8246f8073972534319"
         }
       ]
     },
@@ -133,11 +133,11 @@
         {
           "name": "kiln-0.9.3-sources.jar",
           "url": "kiln-0.9.3-sources.jar",
-          "size": 58809,
-          "sha512": "baaabafe5e9e0f0718a08c47423cc4dbfe8faef84aac8ec1a9f5080d2f97b26e4662af6abb4b8648f0b2dfb38c294349f9aee3eeef0305a80429bed94932d9bd",
-          "sha256": "2c30d046e7e2cc0a931d390d53e9f8e6c7fca4ef82692db65521a212c01ada61",
-          "sha1": "1c973d890d71adb20c7ede2021b70af1103a109e",
-          "md5": "1d7c1a7d781b765726a078f0358a3179"
+          "size": 58785,
+          "sha512": "3c6a40b5f9913e175e362cd3503cfe52ed4b0f3637bf4050b496d3cb76f7f549c00c70f2293cbce5e0cee77f282c08c11592914e781f91171b8ad034b25a1962",
+          "sha256": "975783e025047878a33167c3aec408f9acab36efab720465677ee01156f63bf3",
+          "sha1": "c16f830e89bb910f25850178e7ea1521deabce5e",
+          "md5": "625d2f2283cfa409cb0932d9762db198"
         }
       ]
     }
