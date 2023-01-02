@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.glassmc",
+    "module": "kiln",
+    "version": "0.9.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kiln-0.9.3.jar",
+          "url": "kiln-0.9.3.jar",
+          "size": 125486,
+          "sha512": "83d0468c8bc92344e55b0d2504e1d690089294d05d98098e9622d04b4b24513c5439c43a991b71efebb14a9e86047fd2e54e79c3b3b6d7997a24948ec1467531",
+          "sha256": "3832b38352586d985369b8375fc87126260099114bf3de9065c9eea9670914a4",
+          "sha1": "8982a8dc44eae41437bfd3a2bc776c9b273c62e1",
+          "md5": "52c1fa3fd51e575e0b8531715d684bc7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20220320"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "com.github.jezza",
+          "module": "toml",
+          "version": {
+            "requires": "1.2-java-8"
+          }
+        },
+        {
+          "group": "com.github.johnrengelman",
+          "module": "shadow",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.github.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "750be4e739"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-csv",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jboss.windup.decompiler",
+          "module": "decompiler-fernflower",
+          "version": {
+            "requires": "5.3.0.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kiln-0.9.3.jar",
+          "url": "kiln-0.9.3.jar",
+          "size": 125486,
+          "sha512": "83d0468c8bc92344e55b0d2504e1d690089294d05d98098e9622d04b4b24513c5439c43a991b71efebb14a9e86047fd2e54e79c3b3b6d7997a24948ec1467531",
+          "sha256": "3832b38352586d985369b8375fc87126260099114bf3de9065c9eea9670914a4",
+          "sha1": "8982a8dc44eae41437bfd3a2bc776c9b273c62e1",
+          "md5": "52c1fa3fd51e575e0b8531715d684bc7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kiln-0.9.3-sources.jar",
+          "url": "kiln-0.9.3-sources.jar",
+          "size": 58809,
+          "sha512": "baaabafe5e9e0f0718a08c47423cc4dbfe8faef84aac8ec1a9f5080d2f97b26e4662af6abb4b8648f0b2dfb38c294349f9aee3eeef0305a80429bed94932d9bd",
+          "sha256": "2c30d046e7e2cc0a931d390d53e9f8e6c7fca4ef82692db65521a212c01ada61",
+          "sha1": "1c973d890d71adb20c7ede2021b70af1103a109e",
+          "md5": "1d7c1a7d781b765726a078f0358a3179"
+        }
+      ]
+    }
+  ]
+}
